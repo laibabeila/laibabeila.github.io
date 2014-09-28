@@ -2,20 +2,26 @@ body { padding-top: 70px; background-color: #99CDA6}
     
 h1 { text-align: center; 
     color: #ffffff;
-    font-size: 120px;
     text-transform: uppercase; 
 }
 
-@media screen and (max-width: 370px) {
-        h1 {
-    font-size:80px;
+.h1-portfolio { 
+    text-align: center; 
+    color: #ffffff;
+    font-size: 60px;
+    text-transform: uppercase; 
+}
+
+@media screen and (max-width: 430px) {
+        .h1-portfolio {
+    font-size:40px;
     }
 }
+
 
 h2 { text-align: center; 
     color: #ffffff;
     font-size: 145%;
-    text-shadow: 1px 1px #b0bfe2;
 }
 
 @media screen and (max-width: 370px) {
@@ -31,6 +37,13 @@ hr{
 
 .title-1{
     margin-top: 80px;
+    font-size: 120px;
+}
+
+@media screen and (max-width: 370px) {
+        .title-1 {
+    font-size:80px;
+    }
 }
 
 .navbar .nav > li > a {
