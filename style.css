@@ -5,13 +5,102 @@ h1 { text-align: center;
     text-transform: uppercase; 
 }
 
+h2 { text-align: center; 
+    color: #ffffff;
+    font-size: 145%;
+}
+
+/* portfolio main style*/
+.h2-portfolio-project-class{
+    text-align: left;
+    padding-top: 10%;
+    margin-bottom: -10px;
+}
+
+.choose-project-picture{
+    background: #ffffff;
+    height: 230px;
+}
+
+.choose-category {
+    padding-top: 1px;
+    color: #99CDA6;
+    text-transform: uppercase;
+    background: #ffffff;
+    height: 40px;
+}
+
+.category-list ul {
+    text-align: center;
+    color: #ffffff;
+    list-style: none;
+    list-style-type: none;
+    margin-top: 30px;
+    padding: 0;
+}
+.category-list ul li {
+    display: inline;
+    padding: .2em 1em;
+}
+/* portfolio main style end*/
+
+/* ficha portfolio */
+.content-card{
+    height: 350px;
+    display: inline;
+}
+
+.content-card .h2-project-title {
+    text-align: left;
+    font-size: 40px;
+    padding-top: 0px;
+}
+
+.portfolio-main-picture {
+    background: #ffffff;
+    height: 350px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    
+}
+
 .h1-portfolio { 
     text-align: center; 
     color: #ffffff;
     font-size: 60px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
+    padding-bottom: 40px;
 }
 
+.portfolio-content-text{
+    padding-top: 60px;
+    color: #637167;
+    
+}
+
+.ul-caption {
+    color: #ffffff;
+    list-style-type: none;
+    font-style: italic;
+    font-size: 19px;
+    padding-left: 0px;
+}
+/* ul-enlaces para el estilo de la sección "enlaces" de la ficha del proyecto*/
+.ul-enlaces {
+    color: #ffffff;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.bottom-picture-portfolio{
+    background: #ffffff;
+    height: 200px;
+    margin-bottom: 50px;
+}
+/*end-project-cards-style*/
+
+/*home style*/
 @media screen and (max-width: 430px) {
         .h1-portfolio {
     font-size:40px;
@@ -19,10 +108,7 @@ h1 { text-align: center;
 }
 
 
-h2 { text-align: center; 
-    color: #ffffff;
-    font-size: 145%;
-}
+
 
 @media screen and (max-width: 370px) {
         h2 {
@@ -45,7 +131,9 @@ hr{
     font-size:80px;
     }
 }
+/*end home style*/
 
+/*navbar*/
 .navbar .nav > li > a {
     float: none;
     line-height: 19px;
