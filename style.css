@@ -47,7 +47,7 @@ h2 { text-align: center;
 /* ficha portfolio */
 .content-card{
     height: 350px;
-    display: inline;
+
 }
 
 .content-card .h2-project-title {
@@ -57,12 +57,10 @@ h2 { text-align: center;
 }
 
 .portfolio-main-picture {
-    background: #ffffff;
+    background: url("images/portfolio-item-ficha-main-picture.jpg") 50% 50%;
     height: 350px;
     display: block;
-    margin: 0;
-    padding: 0;
-    
+   
 }
 
 .h1-portfolio { 
