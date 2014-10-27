@@ -49,7 +49,12 @@ h2 { text-align: center;
 .category-list ul li a:hover{
     color: #B77EB5;
 }
-
+.project-minimage:hover{
+    color: #000;
+}
+.thumbnail{
+border-radius: 0%; 
+}
 /* portfolio main style end*/
 
 /* ficha portfolio */
