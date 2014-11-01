@@ -9,6 +9,45 @@ h2 { text-align: center;
     color: #ffffff;
     font-size: 145%;
 }
+/*PROFILE style*/
+.h2-profile{
+    font-size: 40px;
+    padding-top: 3%;
+}
+
+.profile-text{
+    display:block;
+    margin-top: 4%;
+    padding: 3%;
+    color: #ffffff;
+}
+
+.profile-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+.h1-profile{
+    text-align: center; 
+    color: #ffffff;
+    font-size: 60px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.profile .h1-profile{
+    color: #ffffff;
+    margin-top: 8%;
+}
+.profile-bg{
+    background: #99CDA6;
+}
+.profile{
+    margin-top: -19px;
+    background: #ffffff;
+}
+/*profile style end*/
 
 /* portfolio main style*/
 .h2-portfolio-project-class{
