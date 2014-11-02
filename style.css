@@ -36,6 +36,12 @@ h2 { text-align: center;
     padding-bottom: 20px;
     padding-top: 20px;
 }
+@media screen and (max-width: 400px) {
+        .h1-profile {
+    font-size:40px;
+                    }
+}
+
 .profile .h1-profile{
     color: #ffffff;
     margin-top: 8%;
@@ -49,7 +55,7 @@ h2 { text-align: center;
 }
 /*profile style end*/
 
-/* portfolio main style*/
+/* PORTFOLIO MAIN style*/
 .h2-portfolio-project-class{
     text-align: left;
     padding-top: 10%;
@@ -96,25 +102,7 @@ border-radius: 0%;
 }
 /* portfolio main style end*/
 
-/* ficha portfolio */
-.content-card{
-    height: 350px;
-
-}
-
-.content-card .h2-project-title {
-    text-align: left;
-    font-size: 40px;
-    padding-top: 0px;
-}
-
-.portfolio-main-picture {
-    background: url("images/portfolio-item-ficha-main-picture.jpg") 50% 50%;
-    height: 350px;
-    display: block;
-   
-}
-
+/* PORTFOLIO ITEM */
 .h1-portfolio { 
     text-align: center; 
     color: #ffffff;
@@ -122,11 +110,28 @@ border-radius: 0%;
     text-transform: uppercase;
     padding-bottom: 40px;
 }
+.portfolio-main-picture {
+    background: url("images/portfolio-item-ficha-main-picture.jpg") 50% 50%;
+    height: 350px;
+    display: block;
+    margin-bottom: 10px;
+   
+}
 
-.portfolio-content-text{
-    padding-top: 60px;
-    color: #637167;
-    
+.content-card{
+    height: 350px;
+    padding: 0px;
+}
+
+.content-card .h2-project-title {
+    text-align: left;
+    font-size: 40px;
+    padding-top: 0px;
+}
+@media screen and (max-width: 430px) {
+        .content-card .h2-project-title {
+    font-size:25px;
+    }
 }
 
 .ul-caption {
@@ -143,10 +148,14 @@ border-radius: 0%;
     padding-left: 0px;
 }
 
-.bottom-picture-portfolio{
-    background: #ffffff;
-    height: 200px;
-    margin-bottom: 50px;
+.portfolio-content-text{
+    padding-top: 7px;
+    color: #637167;  
+}
+@media screen and (max-width: 650px) {
+        .portfolio-content-text {
+    font-size:12px;
+    }
 }
 /*end-project-cards-style*/
 
@@ -156,9 +165,6 @@ border-radius: 0%;
     font-size:40px;
     }
 }
-
-
-
 
 @media screen and (max-width: 370px) {
         h2 {
@@ -176,7 +182,7 @@ hr{
     font-size: 120px;
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 400px) {
         .title-1 {
     font-size:80px;
     }
