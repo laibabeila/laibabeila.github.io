@@ -85,15 +85,21 @@ transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }*/
 
 .btn-default {
+    color: #ffffff;
+    background-color: #78AE79;
+    border-color: none;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
 color: #ffffff;
-background-color: #78AE79;
-border-color: none;
+background-color: #B77EB5;
+border-color: #adadad;
 }
 .btn {
-width: 100%;
-margin-bottom: 0;
-border: none;
-border-radius: 0px;
+    width: 100%;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 0px;
+    
 }
 /*contact style end*/
 
