@@ -104,27 +104,6 @@ border-color: #adadad;
 /*contact style end*/
 
 /*PROFILE style*/
-
-.h2-profile{
-    font-size: 40px;
-    padding-top: 3%;
-}
-
-.profile-text{
-    display:block;
-    margin-top: 4%;
-    padding: 3%;
-    color: #ffffff;
-}
-
-.profile-picture{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.profile-picture .img-responsive{
-    border-radius: 100%;
-}
 .h1-profile{
     text-align: center; 
     color: #ffffff;
@@ -138,18 +117,41 @@ border-color: #adadad;
     font-size:40px;
                     }
 }
-
 .profile .h1-profile{
     color: #ffffff;
     margin-top: 8%;
 }
-.profile-bg{
-    background: #99CDA6;
+.h2-profile{
+    font-size: 40px;
+    padding-top: 3%;
+    text-align: center;
 }
-.profile{
-    margin-top: -19px;
+@media screen and (max-width: 1000px) {
+        .h2-profile {
+    font-size:35px;
+    padding-top: 0%;
+    text-align: center;
+                    }
+}
+
+.profile-text{
     background: #ffffff;
+    display:block;
+    margin-top: 5%;
+    padding: 3%;
+    color: #464e46;
+    margin-bottom: 90px;
 }
+
+.profile-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile-picture .img-responsive{
+    border-radius: 100%;
+}
+
 /*profile style end*/
 
 /* PORTFOLIO MAIN style*/
