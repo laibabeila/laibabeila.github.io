@@ -134,15 +134,6 @@ border-color: #adadad;
                     }
 }
 
-.profile-text{
-    background: #ffffff;
-    display:block;
-    margin-top: 5%;
-    padding: 3%;
-    color: #464e46;
-    margin-bottom: 90px;
-}
-
 .profile-picture{
     display: block;
     margin-left: auto;
@@ -152,6 +143,24 @@ border-color: #adadad;
     border-radius: 100%;
 }
 
+.profile-text{
+    background: #ffffff;
+    display:block;
+    margin-top: 5%;
+    padding: 3%;
+    color: #464e46;
+    margin-bottom: 20px;
+}
+
+.read-more{
+    text-align:center;
+    text-transform: uppercase;
+    color:#ffffff;
+    background-color: #78AE79;
+    padding-top: 7px;;
+    padding-bottom: 1px;
+    margin-bottom: 90px;
+}
 /*profile style end*/
 
 /* PORTFOLIO MAIN style*/
