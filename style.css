@@ -219,14 +219,16 @@ border-radius: 0%;
     padding-bottom: 40px;
 }
 .portfolio-main-picture {
-    background: url("images/portfolio-item-ficha-main-picture.jpg") 50% 50%;
+    background: url("images/troll/troll-banner-2-design-illustrator-sara-palma.jpg") 50% 50%;
     height: 350px;
     display: block;
     margin-bottom: 10px;
+    margin-top:25px;
    
 }
 
 .content-card{
+    margin-top: 0px;
     height: 350px;
     padding: 0px;
 }
@@ -255,9 +257,23 @@ border-radius: 0%;
     list-style-type: none;
     padding-left: 0px;
 }
-
+@media screen and (max-width: 650px) {
+        .ul-enlaces {
+    font-size:12px;
+    }
+}
+.ul-enlaces a{
+    color: #ffffff;
+    list-style-type: none;
+    padding-left: 0px;
+    text-decoration: none;
+}
+.ul-enlaces a:hover{
+    color: #B77EB5;
+}
 .ul-share-project{
     text-align: right;
+    text-decoration-line: none;
     color: #B77EB5;
     list-style: none;
     list-style-type: none;
@@ -276,7 +292,7 @@ border-radius: 0%;
 }
 
 .portfolio-content-text{
-    padding-top: 7px;
+    padding-top: 90px;
     color: #637167;  
 }
 @media screen and (max-width: 650px) {
