@@ -219,8 +219,8 @@ border-radius: 0%;
     padding-bottom: 40px;
 }
 .portfolio-main-picture {
-    background: url("images/troll/troll-banner-2-design-illustrator-sara-palma.jpg") 50% 50%;
-    height: 350px;
+    background: url("images/troll/troll-banner-1-design-illustrator-sara-palma.jpg") 50% 50%;
+    height: 390px;
     display: block;
     margin-bottom: 10px;
     margin-top:25px;
@@ -237,6 +237,11 @@ border-radius: 0%;
     text-align: left;
     font-size: 40px;
     padding-top: 0px;
+}
+@media screen and (max-width: 1200px) {
+        .content-card .h2-project-title {
+    font-size:35px;
+    }
 }
 @media screen and (max-width: 430px) {
         .content-card .h2-project-title {
