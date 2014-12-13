@@ -15,18 +15,23 @@
     <meta property="og:description" content="Sara Palma's portfolio, contact and personal web page" />
     <meta property="og:image" content="images/avatar.jpg"/>
 <!-- info google+-->
-      <meta itemprop="name" content="Sara Palma&#39;s portfolio">
-      <meta itemprop="description" content="Sara Palma&#39;s portfolio, contact and personal web page">
-      <meta itemprop="image" content="images/avatar.jpg">
+    <meta itemprop="name" content="Sara Palma&#39;s portfolio">
+    <meta itemprop="description" content="Sara Palma&#39;s portfolio, contact and personal web page">
+    <meta itemprop="image" content="images/avatar.jpg">
       
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="style.css" rel="stylesheet">
     <!--FontAwesome link-->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Extra CSS for Image Gallery -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="bootsrap-image-gallery/css/bootstrap-image-gallery.min.css">
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+      
 
   </head>
     
@@ -126,21 +131,27 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <div class= "portfolio-content-minipictures">
-                        <div clas="row">
+                        <div id="links" clas="row">
                             <div class="col-md-4 col-sm-4">
-                                <div class="thumbnail">
-                                    <img src="images/portfolio-main-foto-proyecto-2.jpg">
-                                </div>
+                                <a href="images/portfolio-main-foto-proyecto-2.jpg" title="Foto 1" data-gallery>
+                                    <div class="thumbnail">
+                                        <img src="images/portfolio-main-foto-proyecto-2.jpg">
+                                    </div>
+                                </a>
                             </div>
                             <div class="col-md-4 col-sm-4">
-                                <div class="thumbnail">
-                                    <img src="images/portfolio-main-foto-proyecto-2.jpg">
-                                </div>
+                                <a href="images/portfolio-main-foto-proyecto-2.jpg" title="Foto 2" data-gallery>
+                                    <div class="thumbnail">
+                                        <img src="images/portfolio-main-foto-proyecto-2.jpg">
+                                    </div>
+                                </a>
                             </div>
                             <div class="col-md-4 col-sm-4">
-                                <div class="thumbnail">
-                                    <img src="images/portfolio-main-foto-proyecto-2.jpg">
-                                </div>
+                                <a href="images/portfolio-main-foto-proyecto-2.jpg" title="Foto 3" data-gallery>
+                                    <div class="thumbnail">
+                                        <img src="images/portfolio-main-foto-proyecto-2.jpg">
+                                    </div>
+                                </a>
                             </div>                            
                         </div>
 
@@ -149,9 +160,42 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
                 </div>
             </div>
         </div>
-        
     </main>
-          
+    
+    <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+    <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls" data-use-bootstrap-modal="false">
+        <!-- The container for the modal slides -->
+        <div class="slides"></div>
+        <!-- Controls for the borderless lightbox -->
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+        <!-- The modal dialog, which will be used to wrap the lightbox content -->
+        <div class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body next"></div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default pull-left prev">
+                            <i class="glyphicon glyphicon-chevron-left"></i>
+                            Previous
+                        </button>
+                        <button type="button" class="btn btn-primary next">
+                            Next
+                            <i class="glyphicon glyphicon-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
           
           
           
@@ -161,6 +205,10 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+    <!-- JS for image gallery -->
+    <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+    <script src="bootsrap-image-gallery/js/bootstrap-image-gallery.min.js"></script>
+          
   </body>
 </html>
     
