@@ -298,6 +298,7 @@ border-radius: 0%;
 
 .portfolio-content-text{
     padding-top: 90px;
+    display: block;
     color: #637167;  
 }
 @media screen and (max-width: 650px) {
