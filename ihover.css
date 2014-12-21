@@ -59,6 +59,7 @@
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+/* commented because this class item sizes doesn't adjust to the ones we designed
 
 .ih-item.square {
   position: relative;
@@ -66,7 +67,7 @@
   height: 216px;
   border: 8px solid #fff;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-}
+}*/
 .ih-item.square .info {
   position: absolute;
   top: 0;
