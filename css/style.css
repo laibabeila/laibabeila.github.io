@@ -309,6 +309,16 @@ border-radius: 0%;
 /*end-project-cards-style*/
 
 /*home style*/
+.tooltip-inner{
+    background-color: #ffffff;
+    color: #69986a;
+    font-size: 16px;
+}
+
+.tooltip.bottom .tooltip-arrow{
+    border-bottom-color: #ffffff;
+}
+
 @media screen and (max-width: 430px) {
         .h1-portfolio {
     font-size:40px;
