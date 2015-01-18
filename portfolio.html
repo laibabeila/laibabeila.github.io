@@ -76,10 +76,10 @@
                 </div>
                 <div class="category-list">
                     <ul>
-                        <li><a href="#">Todo</a></li>
-                        <li><a href="#">Ilustración</a></li>
-                        <li><a href="#">Diseño</a></li>
-                        <li><a href="#">Autoedición</a></li>
+                        <li class="filter" data-filter="all"><a href="#">Todo</a></li>
+                        <li class="filter" data-filter=".category-illustration"><a href="#">Ilustración</a></li>
+                        <li class="filter" data-filter=".category-design"><a href="#">Diseño</a></li>
+                        <li class="filter" data-filter=".category-selfedition"><a href="#">Autoedición</a></li>
                     </ul>
                 </div>
             </div>
@@ -90,9 +90,9 @@
                     <div class="project-category">
                         <h2 class="h2-portfolio-project-class">Todos los proyectos</h2>
                         <hr>
-                        <div class="row">
+                        <div class="row" id="Container">
                             
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-design" data-myorder="1">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/antwill.html">
@@ -107,7 +107,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-dedign" data-myorder="2">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/serco-blogger.html">
@@ -122,7 +122,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-design category-illustration" data-myorder="3">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/torrebaro-project.html">
@@ -137,7 +137,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-design" data-myorder="4">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/sercotel-newsletters.html">
@@ -153,7 +153,7 @@
                                 </div>
                             </div>
                      
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-design" data-myorder="5">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/miniguias.html">
@@ -168,7 +168,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-illustration category-selfedition" data-myorder="6">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/voyelles.html">
@@ -183,7 +183,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-design" data-myorder="7">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/serco-landingpage.html">
@@ -198,7 +198,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-illustration" data-myorder="8">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/missrobin.html">
@@ -213,7 +213,7 @@
                                     </div>
                                 </div>
                             </div>  
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-design" data-myorder="9">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/infografias.html">
@@ -228,7 +228,7 @@
                                     </div>
                                 </div>
                             </div>  
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-design" data-myorder="10">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/marysol-project.html">
@@ -243,7 +243,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-design" data-myorder="11">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/serco-relax.html">
@@ -258,7 +258,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-design category-illustration" data-myorder="12">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/troll-project.html">
@@ -273,7 +273,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-design" data-myorder="13">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/sercoshop.html">
@@ -288,7 +288,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-illustration" data-myorder="14">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/gueisha.html">
@@ -303,7 +303,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-illustration" data-myorder="15">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/richardserra.html">
@@ -318,7 +318,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-illustration" data-myorder="16">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/mrjeckyll.html">
@@ -333,7 +333,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-illustration" data-myorder="17">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/parche.html">
@@ -348,7 +348,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-design category-illustration category-selfedition" data-myorder="18">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/walimai.html">
@@ -363,7 +363,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-illustration" data-myorder="19">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/pritiriti.html">
@@ -378,7 +378,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-illustration" data-myorder="20">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/sombra-conceptart.html">
@@ -393,7 +393,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-illustration" data-myorder="21">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/sombras.html">
@@ -408,7 +408,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-illustration category-selfedition" data-myorder="22">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/apocalipsis.html">
@@ -423,7 +423,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-illustration" data-myorder="23">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/somatents-relatos.html">
@@ -438,7 +438,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-illustration" data-myorder="24">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/somatents-autores.html">
@@ -453,7 +453,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-design category-illustration" data-myorder="25">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/somatents-varios.html">
@@ -468,7 +468,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-illustration" data-myorder="26">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/lletrapetita.html">
@@ -483,7 +483,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                            <div class= "col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 mix category-illustration" data-myorder="27">
                                 <div class="thumbnail">
                                     <div class="ih-item square effect6 from_left_and_right">
                                         <a href="/projects/ufec.html">
@@ -515,6 +515,15 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+    <script>
+          $(document).ready(
+              function(){
+                  $('#Container').mixItUp();
+              }
+          );
+    </script>
+          
   </body>
 </html>
     

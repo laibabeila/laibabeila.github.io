@@ -164,6 +164,17 @@ border-color: #adadad;
 /*profile style end*/
 
 /* PORTFOLIO MAIN style*/
+.active {
+    border-bottom: 5px solid #B77EB5;
+    font-weight: bolder;
+    color: #B77EB5;
+    
+}
+
+#Container .mix{
+	display: none;
+}
+
 .h2-portfolio-project-class{
     text-align: left;
     padding-top: 10%;
